@@ -1,0 +1,12 @@
+.widget__content {
+    margin: 5px;
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+    align-items: right;
+  }
+ 
+  .widget__contents {
+    display: flex;
+    cursor: pointer;
+  }

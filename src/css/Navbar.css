@@ -1,0 +1,199 @@
+.aHeader {
+    display : flex;
+    align-items: center;
+   background-color:rgb(139, 107, 107);
+    width: 1550px;
+    box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.5);
+    cursor: pointer;
+    height: 80px;
+}
+.aHeader_logo{
+
+margin-right: 20px;
+border-radius: 20px;
+border: 10px;
+color:rgb(6, 63, 73);
+align-items:baseline;
+
+}
+
+
+.img_Logo{
+ cursor: pointer;
+  display: flex;
+width:170px;
+height:80px;
+}
+
+
+.aHeader_icons{
+    display: flex;
+    margin-right: 20px;
+    cursor: pointer;
+  
+}
+
+.aHeader_icon > .MuiSvgIcon-root {
+    color:rgb(21, 223, 155);
+    cursor: pointer;
+    font-size: xx-large;
+    padding: 5px 35px;
+    margin: 20px;
+    width: 50px;
+    
+}
+.aHeader_icon > .MuiSvgIcon-root:hover{
+    color:blanchedalmond;
+    border-radius:10px;
+    background-color: lightgrey;
+    display:flex;
+    align-content: center;
+    border:1px solid lightgrey;
+    padding: 5px;
+    cursor: pointer;
+}
+.aHeader_icon >.signout_Btn{
+
+color:rgb(21, 223, 155);
+}
+.aHeader_icon >.signout_Btn:hover{
+
+  color:rgb(15, 155, 108);
+  background-color: lightgrey;
+  cursor: pointer;
+  }
+#sbut{
+    cursor: pointer;
+    padding: 3px 5px;
+    margin: 1px;
+    background-color: rgb(89, 209, 143);
+    color: black;
+}
+#sbut:hover{
+
+background-color: darkolivegreen;
+color:rgb(21, 223, 155);
+}
+
+.modal_category{
+  cursor: pointer;
+}
+
+.modal_category>p{
+cursor: pointer;
+text-overflow: clip;
+text-rendering: auto;
+}
+.category_button{
+  display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: -20px;
+    cursor: pointer;
+}
+.category_button > .cancel {
+  margin-left: auto;
+    border: none;
+    margin-top: 7px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+  .modal_title > h5 {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+  
+  .modal_title > h5:hover {
+    color: #165d86;
+  }
+  
+  .modal_info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .modal_info > p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+  }
+  
+  .modal_info > .modal_scope {
+    display: flex;
+    align-items: center;
+    color: rgb(98, 98, 98);
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  
+  .modal_field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    flex: 1;
+  }
+  
+  .modal_field > .modal_fieldLink {
+    color: gray;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .modal_field > .modal_fieldLink > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .modal_buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    margin-right: -20px;
+    border-top: 1px solid lightgray;
+  }
+  
+  .modal_buttons > .cancel {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+    background-color:#98BDD6
+  }
+  .modal_buttons > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: #95AFDE;
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+
+  .aHeader_icon>.avatar{
+    align-items: center;
+  }
+  

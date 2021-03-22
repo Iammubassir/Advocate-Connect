@@ -1,0 +1,6 @@
+.query_content{
+    display:flex;
+    justify-content: center;
+    margin-top: auto;
+    flex-direction: row;
+}

@@ -1,0 +1,33 @@
+.queryBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: rgb(155, 108, 128);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.queryBox:hover{
+   border: 1px solid lightgray;
+   
+}
+.queryBox_info{
+    display: flex;
+    align-items: center;
+    
+}
+.queryBox_info> h5{
+    color:rgb(70, 61, 61);
+    font-weight: 300;
+    margin-left: 10px;
+}
+.queryBox_query{
+    display: flex;
+    margin-top: 8px;
+}
+.queryBox_query > p{
+    color: rgb(39, 66, 55);
+    font-weight: bold;
+    font-size: large;
+}
