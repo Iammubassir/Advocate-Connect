@@ -186,6 +186,7 @@ function Post(  {Id, question, timestamp, queryUser,selection} //added a change 
                                         display:"flex",
                                         right: "0px"
                                     }}
+                                    // 
                                 >
                                             <span style = {{color:black}}>
                                                answered by {answers.user.displayName
