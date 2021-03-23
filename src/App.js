@@ -21,6 +21,7 @@ function App() {
         display: authUser.displayName? authUser.displayName: authUser.email,
         email:authUser.email
        }));
+      //  
 
       console.log(authUser)
 
