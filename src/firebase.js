@@ -4,13 +4,13 @@ import firebase from "firebase"
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyDtX2jfWasHmepRlCvyVsj23C53wNmeejk",
-    authDomain: "advocate-connect.firebaseapp.com",
-    projectId: "advocate-connect",
-    storageBucket: "advocate-connect.appspot.com",
-    messagingSenderId: "790955158467",
-    appId: "1:790955158467:web:a3fc15193b3ea5ce3f6b76",
-    measurementId: "G-TQ4ZDVPB5K"
+  apiKey: "AIzaSyAr442CO1zK_yMSHi7IHOF8QwXJxAHIv0s",
+  authDomain: "advocateconnect-9c048.firebaseapp.com",
+  projectId: "advocateconnect-9c048",
+  storageBucket: "advocateconnect-9c048.appspot.com",
+  messagingSenderId: "421519095631",
+  appId: "1:421519095631:web:5593a827c6858ca7bff73a",
+  measurementId: "G-D976B3T8DZ"
   };
 
   const firebaseApp = firebase.initializeApp

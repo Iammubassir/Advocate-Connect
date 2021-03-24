@@ -10,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import db from '../firebase';
 import firebase from 'firebase'
 import { black } from 'material-ui/styles/colors';
+import { white } from 'material-ui/styles/colors';
 
 
 
@@ -109,7 +110,7 @@ function Post(  {Id, question, timestamp, queryUser,selection} //added a change 
             /> 
             <h5>{queryUser.display?queryUser.display:queryUser.email}</h5> 
             <small>{new Date(timestamp?.toDate()).toLocaleString()}</small>
-            <small>category</small>
+            
             {/* specification changed above line*/}
             
             </div>
@@ -171,7 +172,7 @@ function Post(  {Id, question, timestamp, queryUser,selection} //added a change 
                             <p
                             key = {id}
                             style = {{position: "relative",
-                            paddingBottom:"5px", fontSize:"small"}}>
+                            paddingBottom:"5px", fontSize:"small", color:"white"}}>
                             {
                                 Id === answers.questionId ? (
                                 <span>
@@ -186,9 +187,8 @@ function Post(  {Id, question, timestamp, queryUser,selection} //added a change 
                                         display:"flex",
                                         right: "0px"
                                     }}
-                                    // 
                                 >
-                                            <span style = {{color:black}}>
+                                            <span style = {{color:white}}>
                                                answered by {answers.user.displayName
                                                 ? answers.user.displayName
                                                 :answers.user.email }  {" "}
