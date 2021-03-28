@@ -211,3 +211,6 @@
 .log{
   background-color: black;
 }
+.login__auth{
+  flex-wrap: nowrap;
+}
