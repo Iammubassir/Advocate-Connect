@@ -5,3 +5,7 @@
     flex-direction: column;
    
 }
+.read{
+    flex-wrap:nowrap;
+    flex-direction: column-reverse;
+}
